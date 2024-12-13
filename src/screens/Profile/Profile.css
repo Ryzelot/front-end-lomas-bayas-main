@@ -1,0 +1,23 @@
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center !important;
+}
+
+
+
+.alert-users {
+  position: absolute;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+  width: 20rem;
+  right: 1rem;
+  top: 1rem;
+}
+
+
+.input-group .checkbox-container {
+  display: inline-block !important;
+}

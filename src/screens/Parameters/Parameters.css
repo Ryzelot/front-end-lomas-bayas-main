@@ -1,0 +1,35 @@
+.search-select-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* Espacio entre los elementos */
+}
+
+.select-form-control,
+.search-container-users .search-users {
+  flex: 1;
+}
+
+/* .search-container-users {
+    width: 100%;
+  }
+  
+  .search-users {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+   */
+
+
+.search-parameters {
+  height: 3rem;
+}
+
+.align-element-table {
+  text-align: center !important;
+}
+
+.margin-negative {
+  margin-top: -1rem;
+}

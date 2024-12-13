@@ -1,0 +1,9 @@
+
+.search-button-container-main-record {
+  display: flex;
+  align-items: flex-end;
+}
+
+.input-description-record {
+  height: 6rem;
+}

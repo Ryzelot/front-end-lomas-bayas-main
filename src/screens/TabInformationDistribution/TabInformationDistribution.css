@@ -1,0 +1,89 @@
+
+[class*="MuiInputBase-root"].Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--green) !important;
+    border-width: 1px !important;
+  }
+  
+  .dark-mode [class*="MuiInputBase-root"].Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--orange) !important;
+    border-width: 1px !important;
+  }
+  
+  .dark-mode [class*="MuiPickersCalendarHeader-label"], [class*="MuiPickersYear-root"] {
+    color: white !important;
+  }
+  
+  .dark-mode [class*="MuiOutlinedInput-notchedOutline"] {
+    border-color: var(--orange) !important;
+    border-width: 2px !important;
+  }
+  
+  .dark-mode [class*="MuiInputBase-root"][class*="MuiOutlinedInput-root"][class*="MuiSelect-root"].Mui-focused [class*="MuiOutlinedInput-notchedOutline"] {
+    border-color: var(--orange) !important;
+    border-width: 1px;
+  }
+  
+  .dark-mode [class*="MuiInputBase-root"][class*="MuiOutlinedInput-root"] {
+    border-color: var(--orange) !important;
+    border-width: 1px;
+  }
+  
+  
+  .dark-mode .MuiStack-root .css-10o2lyd-MuiStack-root{
+    border-color: var(--orange);
+  }
+  .btn-seach-drm {
+    margin-top: 0.6rem !important; 
+    width: 100% !important; 
+    height: 2.9rem !important;
+  }
+  .dark-mode .MuiStack-root .css-5rcoci-MuiStack-root{
+    border-color: var(--orange) !important;
+    border-width: 1px;
+  }
+  .dark-mode .MuiStack-root .css-10o2lyd-MuiStack-root{
+    background-color: aqua;
+  }
+  
+  .container-date {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .firts-container-drm {
+    margin-left: 0rem;
+    margin-top: 0.4rem;
+  }
+  
+  .margin-top {
+    margin-top: 1rem !important;
+  }
+  
+  .dark-mode [class*="MuiPaper-root"].MuiPickersPopper-paper {
+    background-color: #052132 !important;
+  }
+  
+  
+  
+  .dark-mode [class*="MuiPaper-root"][class*="MuiPaper-elevation"][class*="MuiPaper-rounded"][class*="MuiPaper-elevation8"][class*="MuiPopover-paper"][class*="MuiMenu-paper"][class*="css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper"] {
+    background-color: #052132 !important;
+  }
+  .dark-mode [class*="css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper"] {
+    background-color: #052132 !important;
+  }
+  
+  .dark-mode [class*="css-1jy569b-MuiFormLabel-root-MuiInputLabel-root"].Mui-focused {
+    color: white !important;
+  }
+  
+  
+
+  [class*="MuiTableHead-root"] {
+    background-color: var(--green) !important;
+  }

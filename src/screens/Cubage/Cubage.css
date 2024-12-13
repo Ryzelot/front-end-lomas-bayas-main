@@ -1,0 +1,30 @@
+
+.container-input-cubage {
+  width: 60%;
+  gap: 0rem !important;
+}
+
+.icon-arrow {
+  font-size: 1.2rem;
+}
+
+
+.table-container {
+  max-height: 37.5rem; 
+  overflow-y: auto; 
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; 
+  z-index: 100; 
+}
+
+.table-cell {
+  padding: 8px; 
+}
+
+.margin-button-cubage {
+  margin-top: 0.4rem !important;
+}

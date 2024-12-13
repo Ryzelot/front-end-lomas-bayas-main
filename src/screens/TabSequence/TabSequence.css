@@ -1,0 +1,355 @@
+.title-form {
+  font-weight: 600;
+}
+
+.file-transfer {
+  width: 100%;
+  min-height: 68vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-transfer .container-form {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.file-transfer .title-section {
+  margin-bottom: 30px;
+}
+
+.file-transfer .title-section .title-form {
+  color: #6676f7;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+.file-transfer .showfilebox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: #0000000d 0px 0px 0px 1px, #d1d5db3d 0px 0px 0px 1px inset;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.file-transfer .showfilebox .left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.file-transfer .showfilebox .left .filetype {
+  background: #5a90d442;
+  color: var(--green);
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.file-transfer .showfilebox .left h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #292F42;
+}
+
+.file-transfer .showfilebox .right span {
+  display: inline-block;
+  color: var(--green);
+
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.file-transfer .showfilebox .right span:hover {
+  color: var(--green);
+}
+
+.file-transfer .upload-file label {
+  height: 167px;
+  display: flex;
+  cursor: pointer;
+  margin: 30px 0;
+  align-items: center;
+  flex-direction: column;
+  border: 2px dashed var(--green);
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.file-transfer .upload-file .icon-upload {
+  font-size: 50px;
+  color: var(--green);
+}
+
+.file-transfer .upload-file p {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: var(--green);
+}
+
+.submit-btn {
+  width: 100%;
+  background: var(--green);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  padding: 13px 24px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.form-excel {
+  width: 100%;
+}
+
+.container-upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.container-upload .upload-file {
+  width: 100% !important;
+}
+
+.file-input {
+  visibility: hidden !important;
+}
+
+.delete-button-table {
+  background-color: var(--green);
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 20%;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding-top: 0.3rem;
+}
+
+.container-main-form {
+  overflow-y: scroll !important;
+  height: 84vh;
+}
+
+div:where(.swal2-container) {
+  z-index: 9999
+}
+
+.css-19midj6 {
+  padding: 0 !important;
+}
+
+[class*="MuiTabs-indicator"] {
+  background-color: var(--green) !important;
+}
+
+[class*="MuiButtonBase-root"][class*="MuiTab-root"].Mui-selected {
+  color: var(--green) !important;
+}
+
+.sequence-date {
+  display: flex;
+  gap: 1rem;
+  max-width: 62%;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-top: -0.6rem;
+}
+
+.reset-button {
+  justify-content: center !important;
+  height: 2.8rem !important;
+  margin-left: 0rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  min-width: 3rem !important;
+  width: 3rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.column-excel {
+  text-align: center;
+}
+
+
+.width-select {
+  width: 10rem !important;
+}
+
+.buttons-enter-download-secuencias {
+  display: flex;
+  gap: 1rem;
+}
+
+.dark-mode .delete-button-table,
+.dark-mode .css-1aquho2-MuiTabs-indicator,
+.dark-mode .submit-btn {
+  background-color: var(--orange);
+}
+
+.dark-mode .file-transfer .upload-file p,
+.dark-mode .file-transfer .upload-file .icon-upload {
+  color: var(--orange);
+}
+
+.dark-mode [class*="MuiButtonBase-root"][class*="MuiTab-root"].Mui-selected {
+  color: var(--orange) !important;
+}
+
+.dark-mode [class*="MuiTabs-indicator"] {
+  background-color: var(--orange) !important;
+}
+
+.dark-mode .file-transfer .upload-file label {
+  border: 2px dashed var(--orange);
+}
+
+.dark-mode .file-transfer .showfilebox .left h3 {
+  color: white;
+}
+
+
+.MuiStack-root .css-5rcoci-MuiStack-root {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.dark-mode [class*="MuiStack-root"][class*="css-5rcoci-MuiStack-root"] {
+  border: solid 1px #d1d5db3d !important;
+}
+
+[class*="MuiStack-root"][class*="css-5rcoci-MuiStack-root"] {
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+[class*="css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root"].Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px var(--green) solid !important;
+  color: transparent !important;
+}
+
+[class*="css-1jy569b-MuiFormLabel-root-MuiInputLabel-root"].Mui-focused {
+  color: var(--green) !important;
+}
+
+.dark-mode [class*="css-1k4oq0i-MuiPaper-root-MuiPickersPopper-paper"] {
+  background-color: #052132 !important;
+  color: white !important;
+}
+
+.dark-mode [class*="css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel"] {
+  color: white !important;
+}
+
+[class*="MuiDateRangeCalendar-root"][class*="css-e47596-MuiDateRangeCalendar-root"]>div {
+  display: none !important;
+}
+
+[class*="css-5rcoci-MuiStack-root"]>[class*="MuiTextField-root"],
+[class*="css-5rcoci-MuiStack-root"]>[class*="MuiPickersTextField-root"] {
+  min-width: auto !important;
+}
+
+
+[class*="MuiPickersYear-yearButton"],
+[class*="css-innj4t-MuiPickersYear-yearButton"] {
+  color: darkslategray !important;
+}
+
+.dark-mode [class*="MuiTypography-root"],
+.dark-mode [class*="MuiTypography-caption"],
+.dark-mode [class*="MuiDayCalendar-weekDayLabel"] {
+  color: white !important;
+}
+
+
+[class*="-MuiStack-root"] > .MuiTextField-root,
+[class*="-MuiStack-root"] > .MuiPickersTextField-root {
+  min-width: 100% !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+[class*="MuiSelect-select"] {
+  height: unset !important;
+}
+
+.column-semanal {
+  color: blue !important; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.column-dispatch {
+  color: green !important; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.column-mensual {
+  color: orange !important; 
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.container-main-code-colors {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 2rem 0;
+  gap: 3rem;
+}
+
+.container-code-colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.code-colors-span {
+    height: 1rem;
+    width: 1rem;
+    display: block;
+}
+
+.blue-semanal {
+  background-color: blue; 
+}
+
+.green-dispatch {
+  background-color: green;
+}
+
+.orange-mensual {
+  background-color: orange;
+}

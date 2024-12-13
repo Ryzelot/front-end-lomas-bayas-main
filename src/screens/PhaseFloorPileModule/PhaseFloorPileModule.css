@@ -1,0 +1,93 @@
+.search-button-container-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100% !important;
+}
+
+.input-group-elements {
+  display: flex;
+  align-items: center;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: white; 
+  z-index: 100;
+}
+
+
+.search-users {
+  width: 200px;
+  padding: 5px;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+/* .encabezado {
+  background-color: RGB(4, 156, 137);
+  color: white;
+  position: sticky;
+} */
+
+.add-row-button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-row-button:hover {
+  background-color: #0056b3;
+}
+
+.subtabla {
+  margin-top: 2rem;
+}
+
+.align-element-table {
+  text-align: center !important;
+}
+
+.buttons-up-down {
+  display: flex;
+  gap: 0.1rem;
+}
+
+
+.moving-row {
+  background-color: lightblue; /* Color de fondo para la fila en movimiento */
+}
+
+.selected-row {
+  background-color: lightblue;
+}
+
+.container-filter {
+  display: flex;
+  gap: 1rem;
+  width: 36%;
+}
+
+.margin-left {
+  margin-left: -1rem !important;
+  padding-left: 0;
+}
+.table-container {
+  max-height: 37.5rem; 
+  overflow-y: auto; 
+}
+
+[class*="MuiTableHead-root"] {
+  background-color: var(--green) !important;
+}
+
+.row-checkbox {
+  transform: scale(1.3);
+  margin: 5px;
+}
